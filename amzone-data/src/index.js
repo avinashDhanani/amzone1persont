@@ -1,7 +1,7 @@
 const express = require("express");
 const cors = require("cors");
 const data = require("./routes/data");
-require("./DB/mongoose");
+require("./DB/Mongoose");
 
 const app = express();
 

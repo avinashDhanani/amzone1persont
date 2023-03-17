@@ -8,7 +8,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 app.use("/", data);
-const port = process.env.PORT || 8000;
+const PORT = process.env.PORT || 8000;
 
 app.all("/", (req, res) => {
   res.send("<h1>Hey my name is avinash dhanani</h1>");
